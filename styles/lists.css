@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #00ffe7;
+    text-shadow: 0 0 10px #00ffe7;
+}
+
+a.btn-add-rols,
+a.btn-users,
+a.btn-nuevo,
+a.btn-rol {
+    text-decoration: none;
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+    box-shadow: 0 0 10px #ff00cc80, 0 0 20px #3333ff80;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+table {
+    width: 95%;
+    max-width: 1100px;
+    margin-top: 40px;
+    border-collapse: collapse;
+    border: 2px solid #00ffe7;
+    box-shadow: 0 0 20px #00ffe740;
+    font-size: 18px;
+}
+
+thead {
+    background-color: #1f1f1f;
+}
+
+th {
+    color: #00ffe7;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    border-bottom: 2px solid #00ffe7;
+}
+
+td {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 18px;
+    border-bottom: 1px solid #444;
+}
+
+tr:nth-child(even) td {
+    background-color: #1e1e1e;
+}
+
+tr:hover td {
+    background-color: #333;
+    color: #00ffe7;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Links de acción */
+td a {
+    color: #00ffe7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #00b8a9;
+}
