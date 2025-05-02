@@ -95,4 +95,20 @@ Contiene las vistas que el usuario final puede visualizar.
 - **consul.sql:** Script SQL para la creación de la base de datos.
 - **document.md:** Documentación del proyecto (este archivo).
 
-+3
+## Instrucciones para Ejecutar el Sistema
+
+1. **Crear la base de datos**  
+   - Importa el archivo `consul.sql` en tu gestor de base de datos (ej. phpMyAdmin o MySQL Workbench).  
+   - Alternativamente, puedes copiar el contenido del archivo y ejecutarlo manualmente en tu motor de base de datos.
+
+2. **Configurar la conexión a la base de datos**  
+   - Abre el archivo `model/conec.php`.
+   - Cambia los datos de conexión: nombre de usuario, contraseña, nombre de base de datos y puerto, según tu entorno local.
+
+3. **Iniciar el servidor Apache**  
+   - Abre XAMPP (u otro servidor local) y activa el módulo Apache.
+
+4. **Abrir el sistema en el navegador**  
+   - Dirígete a:  
+     `http://localhost/PROYECT/`  
+     (Reemplaza `PROYECT` por el nombre real de la carpeta en tu servidor local).

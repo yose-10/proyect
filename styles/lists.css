@@ -70,7 +70,6 @@ tr:hover td {
     transition: background-color 0.2s, color 0.2s;
 }
 
-/* Links de acción */
 td a {
     color: #00ffe7;
     text-decoration: none;
